@@ -11,6 +11,6 @@ in
    chmod +x "$1"
     ;;
   *)
-    echo "Invalid"
+    echo "Usage: $()basename $0): <file>"
     ;;
 esac
