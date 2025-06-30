@@ -1,13 +1,14 @@
 #!/bin/bash
 
 #
+# cx.sh - Add the (X) execute permission via chmod command
 #
-#
+# Rory Rogerson 30 June 2025 12:21:05
 
 case $#
 in
   1)
-   chmod +x $1
+   chmod +x "$1"
     ;;
   *)
     echo "Invalid"
