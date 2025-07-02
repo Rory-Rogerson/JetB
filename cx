@@ -11,6 +11,6 @@ in
    chmod +x "$1"
     ;;
   *)
-    echo "Usage: $()basename $0): <file>"
+    echo "Usage: $(basename $0): <file>"
     ;;
 esac
